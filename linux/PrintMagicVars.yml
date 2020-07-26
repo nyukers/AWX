@@ -1,4 +1,5 @@
 ---
+# This playbook print vars of Linux host
     - name: Run commands on 
       hosts: linux
 
