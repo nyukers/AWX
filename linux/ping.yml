@@ -1,0 +1,9 @@
+---
+# This playbook uses the win_ping module to test connectivity to Linux hosts
+- name: Ping Linux
+  hosts: linux
+  gather_facts: false
+
+  tasks:
+  - name: ping
+    ping:
