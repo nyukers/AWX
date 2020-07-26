@@ -2,6 +2,7 @@
 # This playbook print vars of Linux host
     - name: Run commands on 
       hosts: linux
+      gather_facts: false
 
       tasks:
       - name: print magic vars
