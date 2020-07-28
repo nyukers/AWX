@@ -1,0 +1,7 @@
+---
+  - name: Test Role
+    hosts:
+      - all
+    gather_facts: true
+    roles:
+      - roleawx
