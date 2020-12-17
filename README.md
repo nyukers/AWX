@@ -1,3 +1,3 @@
 # AWX
 AWX testing.
-This repository contains examples for running Ansible Playbooks by AWX.
+This repository contains examples for running Ansible playbooks by AWX. 2020.
